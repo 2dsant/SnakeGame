@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(129, 129, 129);
+}
+#snake{
+    box-shadow: 3px 2px 20px 1px black;
+}
+#score{
+    padding: 5px;
+    background-color: rgb(103, 255, 82);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+}
