@@ -4,17 +4,28 @@ body{
     justify-content: center;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: rgb(129, 129, 129);
+    background: #222222;
+    color: #F1ECE1;
+    font-family: 'Londrina Solid', cursive;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #snake{
     box-shadow: 3px 2px 20px 1px black;
+    border: 15px solid #30353F;
+    border-radius: 10px;
 }
 #score{
     padding: 5px;
-    background-color: rgb(103, 255, 82);
+    background-color: #505668;
     text-align: center;
     font-size: 15px;
     font-weight: bold;
+    color: #F1ECE1;
 }
 label{
     font-size: 15px;
